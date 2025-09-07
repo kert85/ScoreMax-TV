@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Admin - ScoreMax TV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚙️ Panel de Administración</h1>
+    
+    <h2>Agregar Película</h2>
+    <input type="text" id="titulo" placeholder="Título">
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <input type="text" id="link" placeholder="Link de video (Drive/Mega/etc)">
+    <button id="agregarBtn">Agregar</button>
+
+    <h2>Películas guardadas</h2>
+    <div id="peliculas"></div>
+
+    <button onclick="logout()">Cerrar sesión</button>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
